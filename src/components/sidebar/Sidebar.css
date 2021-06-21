@@ -1,0 +1,26 @@
+#sidebar {
+    background: #020509;
+    grid-area: sidebar;
+    overflow-y: auto;
+    padding: 20px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.sidebar__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f3f4f6;
+    margin-bottom: 30px;
+}
+
+sidebar__img {
+    display: flex;
+    align-items: center;
+}
+
+sidebar__title > div > img {
+    width: 55px;
+    object-fit: contain;
+}

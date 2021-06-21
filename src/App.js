@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <Sidebar sidebar={sidebarOpen} closeSidebar={closeSidebar} />
+      <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar} />
     </div>
   );
 }
